@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# Chuong trinh sao luu va kiem tra file nen
 # Duong dan thu muc bai tap
 BASE_DIR="$HOME/2400037_NguyenAnhHuy_Linux"
 

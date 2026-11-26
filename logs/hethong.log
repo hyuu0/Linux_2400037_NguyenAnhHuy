@@ -1,0 +1,52 @@
+====================================
+       KIEM TRA THONG TIN HE THONG
+====================================
+
+1. THONG TIN HE THONG
+Ten nguoi dung: admin1
+Ten may tinh: Admin
+Ngay gio hien tai: Thu Nov 26 10:11:57 +07 2026
+Phien ban Linux Kernel: 6.18.58.1-microsoft-standard-WSL2
+
+2. DUNG LUONG RAM
+               total        used        free      shared  buff/cache   available
+Mem:           1.8Gi       426Mi       1.3Gi       4.5Mi       199Mi       1.4Gi
+Swap:          1.0Gi          0B       1.0Gi
+
+3. DUNG LUONG O DIA
+Filesystem      Size  Used Avail Use% Mounted on
+none            936M     0  936M   0% /usr/lib/modules/6.18.58.1-microsoft-standard-WSL2
+/dev/sdb         97M   97M     0 100% /usr/src/linux-headers-6.18.58.1-microsoft-standard-WSL2
+none            936M  4.0K  936M   1% /mnt/wsl
+drivers          90G   79G   12G  88% /usr/lib/wsl/drivers
+/dev/sdd       1007G  2.6G  954G   1% /
+none            936M   76K  936M   1% /mnt/wslg
+none            936M     0  936M   0% /usr/lib/wsl/lib
+rootfs          931M  3.4M  928M   1% /init
+none            936M  848K  935M   1% /run
+none            936M     0  936M   0% /run/lock
+none            936M     0  936M   0% /run/shm
+none            936M   80K  936M   1% /mnt/wslg/versions.txt
+none            936M   80K  936M   1% /mnt/wslg/doc
+C:\              90G   79G   12G  88% /mnt/c
+D:\             136G   67G   69G  50% /mnt/d
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           936M     0  936M   0% /tmp
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+tmpfs           188M   32K  188M   1% /run/user/1000
+
+4. KIEM TRA KET NOI MANG
+PING google.com.vn (142.250.71.163) 56(84) bytes of data.
+64 bytes from nchkga-ab-in-f3.1e100.net (142.250.71.163): icmp_seq=1 ttl=115 time=27.6 ms
+64 bytes from nchkga-ab-in-f3.1e100.net (142.250.71.163): icmp_seq=2 ttl=115 time=28.2 ms
+64 bytes from nchkga-ab-in-f3.1e100.net (142.250.71.163): icmp_seq=3 ttl=115 time=26.9 ms
+64 bytes from nchkga-ab-in-f3.1e100.net (142.250.71.163): icmp_seq=4 ttl=115 time=27.6 ms
+
+--- google.com.vn ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3005ms
+rtt min/avg/max/mdev = 26.924/27.557/28.150/0.434 ms
+Co ket noi mang
+
+====================================
+       KIEM TRA HOAN TAT
+====================================

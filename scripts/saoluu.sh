@@ -29,7 +29,7 @@ if [ -d "$DATA_DIR" ]; then
     echo "Bat dau sao luu..."
 
     # Nen thu muc data bang tar
-    if tar -czf "$BACKUP_PATH" -C "$BASE_DIR" data; then
+    if tar -czf "$BACKUP_PATH" -C "$BASE_DIR" data && tar -tzf "$BACKUP_PATH" > /dev/null 2>&1; then
 
         echo "Sao luu thanh cong!"
         echo "Ten file: $BACKUP_FILE"
